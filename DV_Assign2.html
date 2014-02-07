@@ -36,29 +36,29 @@
 			 * leads to debatable values).
 			 */
 			var inventorFleming = {"name": "Alexander Fleming",
-									"birth year": 1881,
+									"birth_year": 1881,
 									"nationality": "Scottish",
-									"most notable invention": "penicillin"};
+									"most_notable_invention": "penicillin"};
 			console.log(inventorFleming);
 			var inventorLand = {"name": "Edwin Land",
-									"birth year": 1909,
+									"birth_year": 1909,
 									"nationality": "American",
-									"most notable invention": "polaroids"};
+									"most_notable_invention": "polaroids"};
 			console.log(inventorLand);
 			var inventorTimBL = {"name": "Tim Berners-Lee",
-									"birth year": 1955,
+									"birth_year": 1955,
 									"nationality": "British",
-									"most notable invention": "world wide web"};
+									"most_notable_invention": "world wide web"};
 			console.log(inventorTimBL);
 			var inventorTesla = {"name": "Nikola Tesla",
-									"birth year": 1856,
+									"birth_year": 1856,
 									"nationality": "Serbian American",
-									"most notable invention": "alternating current (AC)"};
+									"most_notable_invention": "alternating current (AC)"};
 			console.log(inventorTesla);
 			var inventorGutenberg = {"name": "Johannes Gutenberg",
-									"birth year": 1395,
+									"birth_year": 1395,
 									"nationality": "German",
-									"most notable invention": "movable type printing press"};
+									"most_notable_invention": "movable type printing press"};
 			console.log(inventorGutenberg);
 			
 			/*
@@ -83,11 +83,16 @@
 			 */
 			
 			var inventorKamen = {"name": "Dean Kamen",
-									"birth year": 1951,
+									"birth_year": 1951,
 									"nationality": "American",
-									"most notable inventions": ["segway", "iBOT", "SlingShot", "AutoSyringe"],
-									"companies": {"research company name":"DEKA", "nonprofit company name": "FIRST Robotics"}};
+									"most_notable_inventions": ["segway", "iBOT", "SlingShot", "AutoSyringe"],
+									"companies": {"research_company_name":"DEKA", "nonprofit_company_name": "FIRST Robotics"}};
 			console.log(inventorKamen);
+		/* 
+		 * Now I just want to console log the companies of Dean Kamen (console logging a property from inside the object). I want
+		 * to console log just the research company name DEKA.
+		 */
+			console.log (inventorKamen.companies.research_company_name);
 		</script> 
 	</body>
 </html>
